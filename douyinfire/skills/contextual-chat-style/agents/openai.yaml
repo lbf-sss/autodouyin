@@ -1,0 +1,6 @@
+interface:
+  display_name: "懂上下文的聊天语气"
+  short_description: "结合当前会话和本人真实表达习惯，拟写自然、贴合关系的聊天回复"
+  default_prompt: "使用 $contextual-chat-style，根据已授权的聊天记录理解当前对话，按我平时的语气拟一条回复。"
+policy:
+  allow_implicit_invocation: true

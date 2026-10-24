@@ -1,0 +1,53 @@
+# Local runtime data
+xuhuohua_users.json
+douyin_cookies*.txt
+config/douyinfire.yaml
+config/douyinfire.json
+data/
+logs/
+screenshots/
+douyin_*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# macOS
+.DS_Store
+
+# Local application build artifacts
+build/
+dist/
+*.spec
+
+# Private credentials, browser sessions and local notes
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.sqlite*
+*.db
+*.db-*
+cookies*.json
+storage_state*.json
+server.json
+ai-reply-private/
+profiles/
+states/
+.auth/
+docs/superpowers/
+*.app/
+
+# Local development caches
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.idea/
+.vscode/
